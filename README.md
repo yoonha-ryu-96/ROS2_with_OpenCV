@@ -1,17 +1,22 @@
-# Oneday_ROS_Camera
-## Object 
+<div align="center">
+
+# **[ROS_DAY]**  ROS World Best Camera Project
+<img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white">![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+
+</div>
+
+# **Object**
 ---
 1. **ROS2**와 **OpenCV**를 cv_bridge 라이브러리를 통해 연동하여 **"World Best Camera"** Dev Project 진행
-2. **ROS Package**를 직접 만들기
+2. **ROS Package**를 직접 만들기 : 구독, 발행, 서비스 모두 포함
 3. OpenCV 기반 카메라 구현 및 다양한 필터 기능 연동
 4. **ROS Launch**를 통한 **Batch Execution**
- 
-
-<img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white">   ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
 
 
-## Prerequisites :bookmark_tabs: 
+
+     
+# Prerequisites :bookmark_tabs: 
 ---
 
 
