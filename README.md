@@ -14,10 +14,9 @@
 
      
 # Prerequisites
----
-
-
-### 1. 환경 설정 
+---  
+  
+### 1. Installation - ROS2(Humble)
 
 <table>
   <tr>
@@ -30,37 +29,34 @@
   </tr>
 </table>  
 
-  
-   * How to install [ROS2](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) **<<^^?**  
-                                                                                                           
-### 2. opencv를 사용하기 위한 라이브러리 설치
-  + opencv-python 설치   
+<br>  
+
+* How to install [ROS2](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) **<<^^?**  
+   
+<br>  
+                                                                                                        
+### 2. Installation - OpenCV
+  * Install **opencv-python**   
        
      ```
      pip3 install opencv-python
      ```
-  + ros-humble-cv-bridge 설치
-    
-    ros2 img 메세지와 opencv 이미지 사이의 변환을 도와주는 패키지
+
+  * Install **ros-humble-cv-bridge**
+      
     ```
     sudo apt install ros-humble-cv-bridge
     ```
-  + rqt 설치
 
-    rqt는 ros 사용자의 디버깅을 도와주는 도구입니다
-
+  * Install **rqt**  
+  
     ```
     sudo apt install ros-humble-rqt*
     ```
 
-
-    
-## Try it :metal:
+# Implement
 ---
-프로젝트를 직접 실행해보자   
-
-
- + git clone으로 프로젝트 코드 내려 받기
+ * Git Clone my Package 
    
    ```
    git clone https://github.com/dyjung-dev/ros2_camera_project.git
