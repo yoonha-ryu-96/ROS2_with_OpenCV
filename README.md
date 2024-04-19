@@ -1,6 +1,6 @@
 <div align="center">
 
-# **[ROS_DAY]**  ROS World Best Camera Project
+# **[ROS_DAY]** World Best Camera Project
 <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white">![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
 </div>
