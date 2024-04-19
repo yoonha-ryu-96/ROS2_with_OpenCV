@@ -20,13 +20,23 @@
 ---
 
 
-### 1. 프로젝트 실행에 환경 갖추기 
+### 1. 환경 설정 
 
-   ```
-   OS   : Ubuntu 22.04.4 LTS
-   ROS2 : Humble
-   ```
-   ROS2 설치가 필요할 경우 [ROS2](https://docs.ros.org/en/humble/Installation.html) 링크를 참고하여 설치해 주시기 바랍니다
+<table>
+  <tr>
+    <td><div align="center"><strong><font color="black">OS</font></strong></div></td>
+    <td><div align="center"><strong><font color="black">ROS</font></strong></div></td>
+  </tr>
+  <tr>
+    <td>Ubuntu 22.04.4 LTS</td>
+    <td>Humble</td>
+  </tr>
+</table>
+
+
+
+   * How to install [ROS2](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) **<< ^^?**
+
 
 
 
