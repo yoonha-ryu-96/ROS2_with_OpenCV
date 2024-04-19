@@ -1,0 +1,5 @@
+img_with_color:
+  ros__parameters:
+    red_scale: 0.1
+    green_scale: 0.2
+    blue_scale: 0.3

@@ -1,0 +1,4 @@
+img_with_filters:
+  ros__parameters:
+    image_width: 100
+    image_height: 100
