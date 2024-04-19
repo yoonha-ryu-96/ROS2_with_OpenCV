@@ -12,11 +12,8 @@
 3. OpenCV 기반 카메라 구현 및 다양한 필터 기능 연동
 4. **ROS Launch**를 통한 **Batch Execution**
 
-
-
-
      
-# Prerequisites :bookmark_tabs: 
+# Prerequisites
 ---
 
 
@@ -31,15 +28,11 @@
     <td>Ubuntu 22.04.4 LTS</td>
     <td>Humble</td>
   </tr>
-</table>
+</table>  
 
-
-
-   * How to install [ROS2](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) **<< ^^?**
-
-
-
-
+  
+   * How to install [ROS2](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html) **<<^^?**  
+                                                                                                           
 ### 2. opencv를 사용하기 위한 라이브러리 설치
   + opencv-python 설치   
        
