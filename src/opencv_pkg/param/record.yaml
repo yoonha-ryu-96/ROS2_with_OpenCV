@@ -1,3 +1,3 @@
 record:
   ros__parameters:
-    file_path : '../opencv_oneday/src/opencv_msgs/record/'
+    file_path : '../oneday_ros_camera/src/opencv_msgs/record/'

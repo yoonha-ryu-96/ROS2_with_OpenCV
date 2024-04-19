@@ -14,7 +14,7 @@ class VideoRecorder(Node):
         self.bridge = CvBridge()
         self.record_srv = self.create_service(Record, 'record_video', self.record_video_callback)
         self.lock = Lock()
-        self.base_directory = self.declare_parameter('file_path', '../opencv_oneday/src/opencv_msgs/record/').get_parameter_value().string_value
+        self.base_directory = self.declare_parameter('file_path', '/not/care/your/path').get_parameter_value().string_value
         self.last_images = {}
         self.video_writers = {}
 
@@ -50,6 +50,8 @@ class VideoRecorder(Node):
             if topic in self.last_images and self.last_images[topic] is not None:
                 frame = self.last_images[topic]
                 video_path = os.path.join(self.base_directory, f"{topic.replace('/', '_')}.avi")
+                if not os.path.exists(self.base_directory):
+                    os.makedirs(self.base_directory)
                 height, width, _ = frame.shape
                 fourcc = cv2.VideoWriter_fourcc(*'XVID')
                 video_writer = cv2.VideoWriter(video_path, fourcc, 20.0, (width, height))
