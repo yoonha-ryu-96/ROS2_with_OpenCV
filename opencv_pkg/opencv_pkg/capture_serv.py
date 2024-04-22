@@ -12,7 +12,7 @@ class CameraCapture(Node):
         super().__init__('camera_capture')
         self.bridge = CvBridge()
         self.last_images = {}
-        self.base_directory = self.declare_parameter('file_path', '../opencv_oneday/src/opencv_msgs/cap/').get_parameter_value().string_value
+        self.base_directory = self.declare_parameter('file_path', '/not/care/your/path').get_parameter_value().string_value
 
         # Predefined topics
         self.topics = [
